@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from backend.schemas.health import HealthResponse
-from backend.prediction.prediction import model_version
+from backend.config import model_version
 
 router=APIRouter()
 
